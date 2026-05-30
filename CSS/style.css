@@ -1,0 +1,97 @@
+img{
+    margin-top: 100px;
+    border-radius:0;
+    width: 150px;
+    align-self: center;
+}
+
+
+h1{
+    color:darkslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h4{
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h6{
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.intro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+
+}
+
+.citat{
+    text-align: center;
+}
+
+
+.inspo{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+
+a:hover{
+    background-color: cornflowerblue;
+}
+
+
+li{
+  
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.forstaelementindex{
+    margin-top: 100px;
+}
+
+.forstaelementinspo{
+    margin-top: 100px;
+}
+
+.forstaelementkontakt{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
