@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Eleonora Nocentini Sköldebrink." />
+    <title>Kontakt · Eleonora Nocentini Sköldebrink</title>
+    <link rel="icon" href="./images/profile.png" />
+    <script type="module" src="/src/main.js"></script>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="min-h-screen">
+      <header class="border-b border-sand-200 bg-white/80 backdrop-blur">
+        <div class="mx-auto flex max-w-5xl flex-col gap-4 px-4 py-5 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+          <a href="./index.html" class="font-display text-xl font-bold text-olive-900">Eleonora Nocentini Sköldebrink</a>
+          <nav class="flex flex-wrap gap-2" aria-label="Main navigation">
+            <a href="./index.html" data-nav="index.html" class="nav-link">Startsida</a>
+            <a href="./inspirational.html" data-nav="inspirational.html" class="nav-link">Inspiration</a>
+            <a href="./contact.html" data-nav="contact.html" class="nav-link nav-link-active">Kontakt</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:py-16">
+        <div class="mb-10 space-y-3">
+          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-terracotta-600">Kontakt</p>
+          <h1 class="font-display text-4xl font-bold text-olive-900">Kontakta mig</h1>
+          <p class="text-lg text-olive-800/80">Samma kontaktformulär som i originalprojektet — nu med tillgänglig markup och responsiv layout.</p>
+        </div>
+
+        <form id="contact-form" class="card space-y-5" novalidate>
+          <div>
+            <label for="name" class="mb-2 block text-sm font-semibold text-olive-900">Namn</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              autocomplete="name"
+              class="w-full rounded-xl border border-sand-200 bg-sand-50 px-4 py-3 text-olive-900 outline-none ring-terracotta-500 transition focus:bg-white focus:ring-2"
+            />
+          </div>
+
+          <div>
+            <label for="email" class="mb-2 block text-sm font-semibold text-olive-900">E-post</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              autocomplete="email"
+              class="w-full rounded-xl border border-sand-200 bg-sand-50 px-4 py-3 text-olive-900 outline-none ring-terracotta-500 transition focus:bg-white focus:ring-2"
+            />
+          </div>
+
+          <div>
+            <label for="phone" class="mb-2 block text-sm font-semibold text-olive-900">Telefonnummer</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              autocomplete="tel"
+              class="w-full rounded-xl border border-sand-200 bg-sand-50 px-4 py-3 text-olive-900 outline-none ring-terracotta-500 transition focus:bg-white focus:ring-2"
+            />
+          </div>
+
+          <div>
+            <label for="message" class="mb-2 block text-sm font-semibold text-olive-900">Meddelande</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              class="w-full rounded-xl border border-sand-200 bg-sand-50 px-4 py-3 text-olive-900 outline-none ring-terracotta-500 transition focus:bg-white focus:ring-2"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary">Skicka</button>
+          <p data-form-status class="hidden text-sm text-olive-700" role="status" aria-live="polite"></p>
+        </form>
+      </main>
+
+      <footer class="border-t border-sand-200 bg-white">
+        <div class="mx-auto max-w-5xl px-4 py-6 text-sm text-olive-700/70 sm:px-6">
+          FE22 HTML Miniproject 1 · Modern rebuild · <a class="underline hover:text-olive-900" href="https://github.com/Elli2022/fe22-html-mp1-eleonora-nocentini-skoldebrink">GitHub</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
