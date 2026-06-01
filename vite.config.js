@@ -2,7 +2,7 @@ import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/fe22-html-mp1-eleonora-nocentini-skoldebrink/',
+  base: '/',
   build: {
     rollupOptions: {
       input: {
