@@ -1,13 +1,14 @@
-# HTML Miniproject 1
+# Personal Intro Site
 
-[![Live demo](https://img.shields.io/badge/demo-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://html-mp1.netlify.app)
+
+[![Live demo](https://img.shields.io/badge/demo-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://personal-intro-site.netlify.app)
 [![HTML](https://img.shields.io/badge/HTML-semantic-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![Vite](https://img.shields.io/badge/Vite-6-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
-My **first school project in HTML** — a small multi-page personal introduction site from an introductory front-end course (September 2022). The original hand-in is preserved on `version/original`; `main` is a modern static rebuild with the same content and routes.
+Multi-page personal introduction site. The original hand-in is preserved on `version/original`; `main` is a modern static rebuild with Vite and Tailwind using the same content and routes.
 
-**Live site:** [html-mp1.netlify.app](https://html-mp1.netlify.app)
+**Live site:** [html-mp1.netlify.app](https://personal-intro-site.netlify.app)
 
 ## Preview
 
